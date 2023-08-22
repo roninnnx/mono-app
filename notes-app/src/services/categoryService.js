@@ -1,5 +1,5 @@
 // categoryService.js
-const API_URL = 'http://190.14.157.20:3000/notes/';
+const API_URL = 'http://190.14.157.20:3001/notes/';
 
 async function fetchCategoriesForNote(noteId) {
     try {
@@ -14,7 +14,7 @@ async function fetchCategoriesForNote(noteId) {
 
 const createCategory = async (name) => {
     try {
-        const response = await fetch('http://190.14.157.20:3000/categories', {
+        const response = await fetch('http://190.14.157.20:3001/categories', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

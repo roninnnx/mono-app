@@ -1,0 +1,11 @@
+{
+  "name": "my-monorepo",
+  "private": true,
+  "workspaces": [
+    "api",
+    "notes-app"
+  ],
+  "scripts": {
+    "start-all": "yarn workspace api start && yarn workspace notes-app start"
+  }
+}

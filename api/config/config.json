@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "joaquinc_localhost",
+    "password": "joakpo98",
+    "database": "joaquinc_notes",
+    "host": "138.201.26.147",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "joaquinc_localhost",
+    "password": "joakpo98",
+    "database": "joaquinc_notes",
+    "host": "138.201.26.147",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "joaquinc_localhost",
+    "password": "joakpo98",
+    "database": "joaquinc_notes",
+    "host": "138.201.26.147",
+    "dialect": "mysql"
+  }
+}

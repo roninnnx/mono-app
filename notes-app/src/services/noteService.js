@@ -1,5 +1,5 @@
 
-const API_URL = 'http://192.168.0.87:3000/notes/';
+const API_URL = 'http://190.14.157.20:3000/notes/';
 
 async function fetchNotes(showArchived) {
     try {
